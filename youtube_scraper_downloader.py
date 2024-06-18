@@ -37,7 +37,8 @@ async def scrape_youtube_videos():
         page = await context.new_page()
         await page.goto(URL, timeout=60000)  
         time.sleep(5) 
-
+        # Save cookies
+        #await save_cookies(page)
         for _ in range(3):  
             await page.evaluate("window.scrollBy(0, document.body.scrollHeight)")
         

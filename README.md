@@ -21,7 +21,7 @@ This Python script scrapes video URLs from a YouTube channel and downloads them 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/youtube-scraper-downloader.git
+   git clone https://github.com/Zetrohab/youtube-scraper-downloader.git
    cd youtube-scraper-downloader
    ```
 
